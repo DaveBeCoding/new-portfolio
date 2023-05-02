@@ -1,6 +1,10 @@
 # Current Landing Page Design
 
-![Alt Text](https://github.com/DaveBeCoding/new-portfolio/blob/main/sampleView/Sample.mp4)
+
+
+https://user-images.githubusercontent.com/70411835/235576914-4b1f8fa0-97bf-4428-963c-549662b306d6.mp4
+
+
 
 
 
