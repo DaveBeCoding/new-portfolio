@@ -171,6 +171,11 @@ function Footer() {
 
   const copyVariants = {
     hidden: { rotate: -90 },
+    visible: { rotate: -1080, transition: { duration: 2, delay: 1 } },
+  };
+
+  const yearVariant = {
+    hidden: { rotate: -180 },
     visible: { rotate: 1080, transition: { duration: 2, delay: 1 } },
   };
   
@@ -228,7 +233,7 @@ function Footer() {
       <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h4>
       <motion.h4 variants={copyVariants} style={{ display: "inline-block", marginRight: "10px" }}>©</motion.h4>
       <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h4>
-      <motion.h4 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>{year}</motion.h4>
+      <motion.h4 variants={yearVariant} style={{ display: "inline-block", marginRight: "10px" }}>{year}</motion.h4>
       {/* <motion.h4 variants={letterVariants}>C</motion.h4>
       <motion.h4 variants={letterVariants}>o</motion.h4>
       <motion.h4 variants={letterVariants}>p</motion.h4>
