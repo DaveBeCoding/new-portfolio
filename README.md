@@ -1,3 +1,11 @@
+# Current Landing Page Design
+
+![Alt Text]ci(https://github.com/DaveBeCoding/new-portfolio/blob/main/sampleView/Sample.mp4)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
