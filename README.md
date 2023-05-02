@@ -1,6 +1,6 @@
 # Current Landing Page Design
 
-![Alt Text]ci(https://github.com/DaveBeCoding/new-portfolio/blob/main/sampleView/Sample.mp4)
+![Alt Text](https://github.com/DaveBeCoding/new-portfolio/blob/main/sampleView/Sample.mp4)
 
 
 
