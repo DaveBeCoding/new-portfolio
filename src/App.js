@@ -134,25 +134,6 @@ function About() {
 
 
 function Footer() {
-  // const containerVariants = {
-  //   hidden: { opacity: 0 },
-  //   visible: { opacity: 1 },
-  // };
-
-  // const cVariants = {
-  //   hidden: { y: 100 },
-  //   visible: { y: 0, transition: { delay: 0.2 } },
-  // };
-
-  // const pVariants = {
-  //   hidden: { y: 100 },
-  //   visible: { y: 0, transition: { delay: 0.4 } },
-  // };
-
-  // const rVariants = {
-  //   hidden: { y: 100 },
-  //   visible: { y: 0, transition: { delay: 0.6 } },
-  // };
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -163,11 +144,6 @@ function Footer() {
     hidden: { rotate: -180 },
     visible: { rotate: 0, transition: { delay: 0.2 } },
   };
-
-  // const copyVariants = {
-  //   hidden: { rotate: -90 },
-  //   visible: { rotate: 1080, transition: { delay: 1 } },
-  // };
 
   const copyVariants = {
     hidden: { rotate: -90 },
@@ -189,28 +165,6 @@ function Footer() {
     visible: { rotate: 0, transition: { delay: 0.6 } },
   };
   
-
-  // const letterVariants = {
-  //   hidden: {
-  //     x: "random(-200, 200)",
-  //     y: "random(-200, 200)",
-  //     rotate: "random(-360, 360)",
-  //     opacity: 10,
-  //   },
-  //   visible: {
-  //     x: 0,
-  //     y: 0,
-  //     rotate: 0,
-  //     opacity: 1,
-  //     transition: {
-  //       type: "spring",
-  //       stiffness: 30,
-  //       damping: 10,
-  //       delay: "random(0, 0.5)",
-  //     },
-  //   },
-  // };
-
   const year = new Date().getFullYear();
 
   return (
@@ -234,81 +188,10 @@ function Footer() {
       <motion.h4 variants={copyVariants} style={{ display: "inline-block", marginRight: "10px" }}>©</motion.h4>
       <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h4>
       <motion.h4 variants={yearVariant} style={{ display: "inline-block", marginRight: "10px" }}>{year}</motion.h4>
-      {/* <motion.h4 variants={letterVariants}>C</motion.h4>
-      <motion.h4 variants={letterVariants}>o</motion.h4>
-      <motion.h4 variants={letterVariants}>p</motion.h4>
-      <motion.h4 variants={letterVariants}>y</motion.h4>
-      <motion.h4 variants={letterVariants}>r</motion.h4>
-      <motion.h4 variants={letterVariants}>i</motion.h4>
-      <motion.h4 variants={letterVariants}>g</motion.h4>
-      <motion.h4 variants={letterVariants}>h</motion.h4>
-      <motion.h4 variants={letterVariants}>t</motion.h4>
-      <motion.h4>{" "}</motion.h4>
-      <motion.h4 variants={letterVariants}>©</motion.h4>
-      <motion.h4>{" "}</motion.h4>
-      <motion.h4 variants={letterVariants}>{year}</motion.h4> */}
-
     </motion.footer>
   );
 }
 
-//TEST FOOTER 
-
-
-// function Footer() {
-//   const containerVariants = {
-//     hidden: { opacity: 0 },
-//     visible: { opacity: 1 },
-//   };
-
-//   const letterVariants = {
-//     hidden: {
-//       x: "random(-200, 200)",
-//       y: "random(-200, 200)",
-//       rotate: "random(-360, 360)",
-//       opacity: 0,
-//     },
-//     visible: {
-//       x: 0,
-//       y: 0,
-//       rotate: 0,
-//       opacity: 1,
-//       transition: {
-//         type: "spring",
-//         stiffness: 30,
-//         damping: 10,
-//         delay: "random(0, 0.5)",
-//       },
-//     },
-//   };
-
-//   const year = new Date().getFullYear();
-
-//   return (
-//     <motion.footer
-//       className="footer"
-//       variants={containerVariants}
-//       initial="hidden"
-//       animate="visible"
-//     >
-//       <motion.h4 variants={letterVariants}>C</motion.h4>
-//       <motion.h4 variants={letterVariants}>o</motion.h4>
-//       <motion.h4 variants={letterVariants}>p</motion.h4>
-//       <motion.h4 variants={letterVariants}>y</motion.h4>
-//       <motion.h4 variants={letterVariants}>r</motion.h4>
-//       <motion.h4 variants={letterVariants}>i</motion.h4>
-//       <motion.h4 variants={letterVariants}>g</motion.h4>
-//       <motion.h4 variants={letterVariants}>h</motion.h4>
-//       <motion.h4 variants={letterVariants}>t</motion.h4>
-//       <motion.h4>{" "}</motion.h4>
-//       <motion.h4 variants={letterVariants}>©</motion.h4>
-//       <motion.h4>{" "}</motion.h4>
-//       <motion.h4 variants={letterVariants}>{year}</motion.h4>
-//     </motion.footer>
-//   );
-// }
-
-// END FOOTER **
 function NotFound() {
   return <h1>404 Not Found</h1>;
 }
