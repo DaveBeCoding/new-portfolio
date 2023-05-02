@@ -41,7 +41,9 @@ function Home() {
       <motion.h1 variants={oVariants} style={{ display: "inline-block", marginRight: "10px" }}>o</motion.h1>
       <motion.h1 variants={mVariants} style={{ display: "inline-block", marginRight: "10px" }}>m</motion.h1>
       <motion.h1 variants={eVariants} style={{ display: "inline-block", marginRight: "10px" }}>e</motion.h1>
+    <h3>Welcome my portfolio site</h3>
     </motion.div>
+  
   );
 }
 
