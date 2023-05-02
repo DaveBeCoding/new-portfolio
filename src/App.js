@@ -41,9 +41,9 @@ function Home() {
       <motion.h1 variants={oVariants} style={{ display: "inline-block", marginRight: "10px" }}>o</motion.h1>
       <motion.h1 variants={mVariants} style={{ display: "inline-block", marginRight: "10px" }}>m</motion.h1>
       <motion.h1 variants={eVariants} style={{ display: "inline-block", marginRight: "10px" }}>e</motion.h1>
-    <h3>Welcome my portfolio site</h3>
+      <h3>Welcome my portfolio site</h3>
     </motion.div>
-  
+
   );
 }
 
@@ -160,19 +160,20 @@ function Footer() {
       initial="hidden"
       animate="visible"
     >
-      <motion.h1 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>C</motion.h1>
-      <motion.h1 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>o</motion.h1>
-      <motion.h1 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>p</motion.h1>
-      <motion.h1 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>y</motion.h1>
-      <motion.h1 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>r</motion.h1>
-      <motion.h1 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>i</motion.h1>
-      <motion.h1 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>g</motion.h1>
-      <motion.h1 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>h</motion.h1>
-      <motion.h1 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>t</motion.h1>
-      <motion.h1 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h1>
-      <motion.h1 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>©</motion.h1>
-      <motion.h1 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h1>
-      <motion.h1 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>{year}</motion.h1>
+
+      <motion.h3 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>C</motion.h3>
+      <motion.h3 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>o</motion.h3>
+      <motion.h3 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>p</motion.h3>
+      <motion.h3 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>y</motion.h3>
+      <motion.h3 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>r</motion.h3>
+      <motion.h3 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>i</motion.h3>
+      <motion.h3 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>g</motion.h3>
+      <motion.h3 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>h</motion.h3>
+      <motion.h3 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>t</motion.h3>
+      <motion.h3 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h3>
+      <motion.h3 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>©</motion.h3>
+      <motion.h3 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h3>
+      <motion.h3 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>{year}</motion.h3>
     </motion.footer>
   );
 }
@@ -207,7 +208,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
