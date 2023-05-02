@@ -161,19 +161,19 @@ function Footer() {
       animate="visible"
     >
 
-      <motion.h3 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>C</motion.h3>
-      <motion.h3 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>o</motion.h3>
-      <motion.h3 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>p</motion.h3>
-      <motion.h3 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>y</motion.h3>
-      <motion.h3 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>r</motion.h3>
-      <motion.h3 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>i</motion.h3>
-      <motion.h3 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>g</motion.h3>
-      <motion.h3 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>h</motion.h3>
-      <motion.h3 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>t</motion.h3>
-      <motion.h3 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h3>
-      <motion.h3 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>©</motion.h3>
-      <motion.h3 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h3>
-      <motion.h3 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>{year}</motion.h3>
+      <motion.h4 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>C</motion.h4>
+      <motion.h4 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>o</motion.h4>
+      <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>p</motion.h4>
+      <motion.h4 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>y</motion.h4>
+      <motion.h4 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>r</motion.h4>
+      <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>i</motion.h4>
+      <motion.h4 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>g</motion.h4>
+      <motion.h4 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>h</motion.h4>
+      <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>t</motion.h4>
+      <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h4>
+      <motion.h4 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>©</motion.h4>
+      <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h4>
+      <motion.h4 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>{year}</motion.h4>
     </motion.footer>
   );
 }
