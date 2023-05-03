@@ -6,8 +6,8 @@ import Home from './components/mainpages/Home';
 import About from './components/mainpages/About';
 import TradingView from './components/TickerTape';
 import { Route, Link, Routes } from 'react-router-dom';
-import Blog_endpoint from './components/Blog_endpoint';
 import NotFound from './components/mainpages/NotFound';
+import Blog_endpoint from './components/mainpages/Blog_endpoint';
 
 function App() {
   return (

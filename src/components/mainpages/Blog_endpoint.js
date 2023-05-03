@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import Blogger from "./Blogger";
-import Blog_2 from "./blogandpost/Blog_2";
+import Blogger from "../Blogger";
+import Blog_2 from "../blogandpost/Blog_2";
 
 
 function Blog_endpoint() {
