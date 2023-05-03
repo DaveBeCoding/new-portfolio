@@ -1,12 +1,12 @@
 
-import React from 'react';
 import './App.css';
-import { Route, Link, Routes } from 'react-router-dom';
-import TradingView from './components/TickerTape';
-import Blog_endpoint from './components/Blog_endpoint';
+import React from 'react';
 import Footer from './components/Footer';
-import About from './components/mainpages/About';
 import Home from './components/mainpages/Home';
+import About from './components/mainpages/About';
+import TradingView from './components/TickerTape';
+import { Route, Link, Routes } from 'react-router-dom';
+import Blog_endpoint from './components/Blog_endpoint';
 import NotFound from './components/mainpages/NotFound';
 
 function App() {
