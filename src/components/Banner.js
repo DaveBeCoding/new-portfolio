@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import '../App.css';
 import { motion } from 'framer-motion';
 
 const messages = [
-  'Welcome to our website!',
-  'Check out our latest products',
-  'Join our loyalty program',
-  'Free shipping on all orders',
+  'Welcome to my Portfolio',
+  'Open to Contracting',
+  'Open to Consulting',
+  'Ready to Hire',
 ];
 
 function Banner() {
@@ -27,7 +27,8 @@ function Banner() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <p>{messages[index]}</p>
+      {/* <p>{messages[index]}</p> */}
+      <p><strong>{messages[index]}</strong></p>
     </motion.div>
   );
 }

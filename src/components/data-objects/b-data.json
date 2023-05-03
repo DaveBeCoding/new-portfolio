@@ -1,0 +1,29 @@
+{
+    "blogs": [
+      {
+        "id": 1,
+        "title": "My first blog post######",
+        "date": "2022-01-01",
+        "image": "https://example.com/images/first-post.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "link": "/blog/my-first-post"
+      },
+      {
+        "id": 2,
+        "title": "My second blog post",
+        "date": "2022-02-01",
+        "image": "https://example.com/images/second-post.jpg",
+        "description": "Nullam ac purus ut lorem lobortis posuere.",
+        "link": "/blog/my-second-post"
+      },
+      {
+        "id": 3,
+        "title": "My third blog post",
+        "date": "2022-03-01",
+        "image": "https://example.com/images/third-post.jpg",
+        "description": "Vestibulum id mi eu risus viverra ultricies eget sed purus.",
+        "link": "/blog/my-third-post"
+      }
+    ]
+  }
+  
