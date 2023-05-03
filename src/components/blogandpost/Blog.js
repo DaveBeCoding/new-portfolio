@@ -19,10 +19,9 @@ const post = [
   // Add more posts...
 ];
 
-function Blog_2() {
+function Blog() {
   return (
     <div className="blog">
-      <h1>My Blog</h1>
       {post.map((post, index) => (
         <Post key={index} {...post} />
       ))}
@@ -30,4 +29,4 @@ function Blog_2() {
   );
 }
 
-export default Blog_2;
+export default Blog;

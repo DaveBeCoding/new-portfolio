@@ -1,14 +1,6 @@
 import React from 'react';
 
 function Post({ title, author, content, image, video }) {
-//   return (
-//     <div className="post">
-//       <h2 className="post-title">{title}</h2>
-//       <p className="post-author">By {author}</p>
-//       <p className="post-content">{content}</p>
-//     </div>
-//   );
-
 return (
     <div className="post">
       <h2 className="post-title">{title}</h2>
