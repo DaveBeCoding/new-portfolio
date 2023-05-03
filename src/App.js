@@ -2,214 +2,16 @@
 import React from 'react';
 import './App.css';
 import { Route, Link, Routes } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import Banner from './components/Banner';
 import TradingView from './components/TickerTape';
-import Blog from './components/Blog';
-import Slider from './components/Slider';
-
-
-
-function Home() {
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
-  };
-
-  const hVariants = {
-    hidden: { x: -200 },
-    visible: { x: 0, transition: { delay: 0.2 } },
-  };
-
-  const oVariants = {
-    hidden: { y: -200 },
-    visible: { y: 0, transition: { delay: 0.4 } },
-  };
-
-  const mVariants = {
-    hidden: { y: 200 },
-    visible: { y: 0, transition: { delay: 0.6 } },
-  };
-
-  const eVariants = {
-    hidden: { x: 200 },
-    visible: { x: 0, transition: { delay: 0.8 } },
-  };
-
-  return (
-
-    <motion.div
-      className="container"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-    >
-      <motion.h1 variants={hVariants} style={{ display: "inline-block", marginRight: "10px" }}>H</motion.h1>
-      <motion.h1 variants={oVariants} style={{ display: "inline-block", marginRight: "10px" }}>o</motion.h1>
-      <motion.h1 variants={mVariants} style={{ display: "inline-block", marginRight: "10px" }}>m</motion.h1>
-      <motion.h1 variants={eVariants} style={{ display: "inline-block", marginRight: "10px" }}>e</motion.h1>
-      {/* <h3>Welcome to my portfolio site</h3> */}
-      <Banner/>
-      <Slider/>
-      <p>Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the annual Epsom Derby. The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, Epsom is a thriving town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London and other parts of the country.</p>
-
-    </motion.div>
-
-  );
-}
-
-// function Blog() {
-//   const containerVariants = {
-//     hidden: { opacity: 0 },
-//     visible: { opacity: 1 },
-//   };
-
-//   const hVariants = {
-//     hidden: { x: -200 },
-//     visible: { x: 0, transition: { delay: 0.2 } },
-//   };
-
-//   const oVariants = {
-//     hidden: { y: -200 },
-//     visible: { y: 0, transition: { delay: 0.4 } },
-//   };
-
-//   const mVariants = {
-//     hidden: { y: 200 },
-//     visible: { y: 0, transition: { delay: 0.6 } },
-//   };
-
-//   const eVariants = {
-//     hidden: { x: 200 },
-//     visible: { x: 0, transition: { delay: 0.8 } },
-//   };
-
-//   return (
-//     <motion.div
-//       className="container"
-//       variants={containerVariants}
-//       initial="hidden"
-//       animate="visible"
-//     >
-//       <motion.h1 variants={hVariants} style={{ display: "inline-block", marginRight: "10px" }}>B</motion.h1>
-//       <motion.h1 variants={oVariants} style={{ display: "inline-block", marginRight: "10px" }}>l</motion.h1>
-//       <motion.h1 variants={mVariants} style={{ display: "inline-block", marginRight: "10px" }}>o</motion.h1>
-//       <motion.h1 variants={eVariants} style={{ display: "inline-block", marginRight: "10px" }}>g</motion.h1>
-//       <p>Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the annual Epsom Derby. The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, Epsom is a thriving town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London and other parts of the country.</p>
-//     </motion.div>
-//   );
-// }
-
-function About() {
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
-  };
-
-  const hVariants = {
-    hidden: { x: -200 },
-    visible: { x: 0, transition: { delay: 0.2 } },
-  };
-
-  const oVariants = {
-    hidden: { y: -200 },
-    visible: { y: 0, transition: { delay: 0.4 } },
-  };
-
-  const mVariants = {
-    hidden: { y: 200 },
-    visible: { y: 0, transition: { delay: 0.6 } },
-  };
-
-  const eVariants = {
-    hidden: { x: 200 },
-    visible: { x: 0, transition: { delay: 0.8 } },
-  };
-
-  return (
-    <motion.div
-      className="container"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-    >
-      <motion.h1 variants={hVariants} style={{ display: "inline-block", marginRight: "10px" }}>A</motion.h1>
-      <motion.h1 variants={oVariants} style={{ display: "inline-block", marginRight: "10px" }}>b</motion.h1>
-      <motion.h1 variants={mVariants} style={{ display: "inline-block", marginRight: "10px" }}>o</motion.h1>
-      <motion.h1 variants={eVariants} style={{ display: "inline-block", marginRight: "10px" }}>u</motion.h1>
-      <motion.h1 variants={eVariants} style={{ display: "inline-block", marginRight: "10px" }}>t</motion.h1>
-      <p>Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the annual Epsom Derby. The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, Epsom is a thriving town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London and other parts of the country.</p>
-    </motion.div>
-  );
-}
-
-function Footer() {
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
-  };
-
-  const cVariants = {
-    hidden: { rotate: -180 },
-    visible: { rotate: 0, transition: { delay: 0.2 } },
-  };
-
-  const copyVariants = {
-    hidden: { rotate: -90 },
-    visible: { rotate: -1080, transition: { duration: 2, delay: 1 } },
-  };
-
-  const yearVariant = {
-    hidden: { rotate: -180 },
-    visible: { rotate: 1080, transition: { duration: 2, delay: 1 } },
-  };
-
-  const pVariants = {
-    hidden: { rotate: 360 },
-    visible: { rotate: 0, transition: { delay: 0.4 } },
-  };
-
-  const rVariants = {
-    hidden: { rotate: -180 },
-    visible: { rotate: 0, transition: { delay: 0.6 } },
-  };
-
-  const year = new Date().getFullYear();
-
-  return (
-    <motion.footer
-      className="footer"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-    >
-
-      <motion.h4 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>c</motion.h4>
-      <motion.h4 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>o</motion.h4>
-      <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>p</motion.h4>
-      <motion.h4 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>y</motion.h4>
-      <motion.h4 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>r</motion.h4>
-      <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>i</motion.h4>
-      <motion.h4 variants={cVariants} style={{ display: "inline-block", marginRight: "10px" }}>g</motion.h4>
-      <motion.h4 variants={pVariants} style={{ display: "inline-block", marginRight: "10px" }}>h</motion.h4>
-      <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>t</motion.h4>
-      <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h4>
-      <motion.h4 variants={copyVariants} style={{ display: "inline-block", marginRight: "10px" }}>©</motion.h4>
-      <motion.h4 variants={rVariants} style={{ display: "inline-block", marginRight: "10px" }}>{" "}</motion.h4>
-      <motion.h4 variants={yearVariant} style={{ display: "inline-block", marginRight: "10px" }}>{year}</motion.h4>
-    </motion.footer>
-  );
-}
-
-function NotFound() {
-  return <h1>404 Not Found</h1>;
-}
+import Blog_endpoint from './components/Blog_endpoint';
+import Footer from './components/Footer';
+import About from './components/mainpages/About';
+import Home from './components/mainpages/Home';
+import NotFound from './components/mainpages/NotFound';
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <TradingView />
       <header>
         <nav>
@@ -226,17 +28,17 @@ function App() {
           </ul>
         </nav>
       </header>
-
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/about" element={<About />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </main>
-
-      <Footer />
+      <div className="content-wrapper">
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/blog" element={<Blog_endpoint />} />
+            <Route path="/about" element={<About />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
+        <Footer/>
+      </div>
     </div>
   );
 }

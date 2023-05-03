@@ -38,7 +38,7 @@ body {
     padding: 20px;
   }
   
-  .footer {
+  /* .footer {
     background-color: #333;
     color: white;
     position: absolute;
@@ -53,5 +53,46 @@ body {
   .footer h4 {
     display: inline-block;
     margin-right: 10px;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content-wrapper {
+    flex: 1;
+  }
+   */
+
+
+   .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content-wrapper {
+    flex: 1;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 0 0 0;
+  }
+    
+  .footer h4 {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .empty-space {
+    height: 200px;
   }
   
