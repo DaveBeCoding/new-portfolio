@@ -3,8 +3,12 @@ import React from 'react';
 import './App.css';
 import { Route, Link, Routes } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import Banner from './Banner';
+import TradingView from './TickerTape';
+
 
 function Home() {
+  
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
@@ -31,6 +35,7 @@ function Home() {
   };
 
   return (
+    
     <motion.div
       className="container"
       variants={containerVariants}
@@ -41,7 +46,8 @@ function Home() {
       <motion.h1 variants={oVariants} style={{ display: "inline-block", marginRight: "10px" }}>o</motion.h1>
       <motion.h1 variants={mVariants} style={{ display: "inline-block", marginRight: "10px" }}>m</motion.h1>
       <motion.h1 variants={eVariants} style={{ display: "inline-block", marginRight: "10px" }}>e</motion.h1>
-      <h3>Welcome my portfolio site</h3>
+      <h3>Welcome to my portfolio site</h3>
+      {/* <Banner/> */}
     </motion.div>
 
   );
@@ -199,6 +205,7 @@ function NotFound() {
 function App() {
   return (
     <div>
+      <TradingView/>
       <header>
         <nav>
           <ul>
@@ -214,6 +221,7 @@ function App() {
           </ul>
         </nav>
       </header>
+      
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -222,6 +230,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
+      
       <Footer />
     </div>
   );
