@@ -81,7 +81,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/portfolio" element={<Home />} />
-            <Route path="/" element={<Home />} />
+            <Route path="https://davebecoding.github.io/" element={<Home />} />
             <Route path="/blog" element={<BlogEndpoint />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
