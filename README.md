@@ -1,4 +1,4 @@
-[Portfolio](https://davebecoding.github.io/portfolio/)
+[Portfolio](https://davebecoding.github.io/portfolio/){:target="_blank"}
 
 # Current Landing Page Design
 
