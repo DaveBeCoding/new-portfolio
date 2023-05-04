@@ -71,9 +71,7 @@ body {
     height: 490px;
   }
   
-  /* Media queries for different screen sizes */
-  
-  /* For screens with a width of 768px and higher */
+  /*width 768px && <*/
   @media screen and (min-width: 768px) {
     header {
       padding: 20px;
@@ -96,7 +94,7 @@ body {
     }
   }
   
-  /* For screens with a width of 1200px and higher */
+  /*width 1200px && <*/
   @media screen and (min-width: 1200px) {
     nav li {
       margin-right: 30px;
