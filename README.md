@@ -1,6 +1,8 @@
 <!-- [Portfolio](https://davebecoding.github.io/portfolio/){:target="_blank"} -->
 
-<a href="https://davebecoding.github.io/portfolio/" target="_blank">PORTFOLIO</a>
+<!-- <a href="https://davebecoding.github.io/portfolio/" target="_blank">LIVE PORTFOLIO</a> -->
+
+<a href="https://davebecoding.github.io/portfolio/" target="_blank" rel="noopener noreferrer">LIVE PORTFOLIO</a>
 
 # Current Landing Page Design
 
