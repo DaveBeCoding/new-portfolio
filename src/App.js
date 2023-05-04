@@ -7,7 +7,7 @@ import About from './components/mainpages/About';
 import TradingView from './components/TickerTape';
 import { Route, Link, Routes } from 'react-router-dom';
 import NotFound from './components/mainpages/NotFound';
-import Blog_endpoint from './components/mainpages/Blog_endpoint';
+import BlogEndpoint from './components/mainpages/BlogEndpoint';
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/blog" element={<Blog_endpoint />} />
+            <Route path="/blog" element={<BlogEndpoint />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
