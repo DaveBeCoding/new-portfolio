@@ -1,0 +1,15 @@
+[
+    {
+      "title": "First Post",
+      "author": "John Doe",
+      "content": "This is the content of the first post.",
+      "image": "testimg.png",
+      "video": "testmp4.mp4"
+    },
+    {
+      "title": "Second Post",
+      "author": "Jane Doe",
+      "content": "This is the content of the second post."
+    }
+  ]
+  

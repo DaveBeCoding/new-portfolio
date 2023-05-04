@@ -30,3 +30,44 @@ function Blog() {
 }
 
 export default Blog;
+
+
+// import React from 'react';
+// import Post from './Post';
+// import postArray from './posts.json';
+
+// function Blog() {
+//   return (
+//     <div className="blog">
+//       {postArray.map((post, index) => (
+//         <Post key={index} {...post} />
+//       ))}
+//     </div>
+//   );
+// }
+
+// export default Blog;
+
+
+// function Blog() {
+//   const mediaMapping = {
+//     image1: image1,
+//     video1: video1
+//   };
+
+//   const postsWithMedia = postArray.map((post) => {
+//     if (post.image) post.image = mediaMapping[post.image];
+//     if (post.video) post.video = mediaMapping[post.video];
+//     return post;
+//   });
+
+//   return (
+//     <div className="blog">
+//       {postsWithMedia.map((post, index) => (
+//         <Post key={index} {...post} />
+//       ))}
+//     </div>
+//   );
+// }
+
+// export default Blog;
