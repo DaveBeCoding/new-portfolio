@@ -1,7 +1,9 @@
 import React from 'react';
 import Post from './Post';
-import image1 from '../../assets/testimg.png';
+import image1 from '../../assets/test_1.png';
+import image2 from '../../assets/test_2.png';
 import video1 from '../../assets/testmp4.mp4';
+import video2 from '../../assets/testvid_2.mp4'
 
 const post = [
   {
@@ -15,6 +17,8 @@ const post = [
     title: 'Second Post',
     author: 'Jane Doe',
     content: 'This is the content of the second post.',
+    image: image2,
+    video: video2,
   },
   // Add more posts...
 ];

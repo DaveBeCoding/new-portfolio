@@ -40,10 +40,10 @@ function Blog_endpoint() {
       <motion.h1 variants={mVariants} style={{ display: "inline-block", marginRight: "10px" }}>o</motion.h1>
       <motion.h1 variants={eVariants} style={{ display: "inline-block", marginRight: "10px" }}>g</motion.h1>
 
-      <p>Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the annual Epsom Derby. 
+      {/* <p>Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the annual Epsom Derby. 
         The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, Epsom is a 
         thriving town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London 
-        and other parts of the country.</p>
+        and other parts of the country.</p> */}
         
       <Blog/>
     </motion.div>

@@ -113,3 +113,10 @@ body {
     }
   }
   
+  /* post image */
+  .post-image {
+    max-width: 100%;
+    max-height: 300px; /* Adjust this value according to the desired cell phone size box height */
+    object-fit: contain;
+  }
+  
