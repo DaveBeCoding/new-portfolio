@@ -7,18 +7,82 @@ import video2 from '../../assets/testvid_2.mp4'
 
 const post = [
   {
-    title: 'First Post',
-    author: 'John Doe',
-    content: 'This is the content of the first post.',
+    title: 'Linear Regression Project',
+    author: 'Dave',
+    content: 'This is the content of the first post,This is the content of the first post' 
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. '
+  +'This is the content of the first post.This is the content of the first post. ',
     image: image1,
     video: video1,
   },
   {
-    title: 'Second Post',
-    author: 'Jane Doe',
-    content: 'This is the content of the second post.',
+    title: 'Hybrid Encryption',
+    author: 'Dave',
+    content: 'This is the content of the first post,This is the content of the first post' 
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. ',
     image: image2,
     video: video2,
+  },
+  {
+    title: 'Drone Devlopment',
+    author: 'Dave',
+    content: 'This is the content of the first post,This is the content of the first post' 
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. '
+    +'This is the content of the first post.This is the content of the first post. ',
+    image: image1,
+    video: video1,
   },
   // Add more posts...
 ];

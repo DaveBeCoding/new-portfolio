@@ -43,7 +43,22 @@ function Home() {
         {/* <h3>Welcome to my portfolio site</h3> */}
         <Banner />
         <Slider />
-        <p>Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the annual Epsom Derby. The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, Epsom is a thriving town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London and other parts of the country.</p>
+        <p>Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the annual Epsom Derby. 
+          The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, Epsom is a 
+          thriving town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London and 
+          other parts of the country.Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the 
+          annual Epsom Derby. The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, 
+          Epsom is a thriving town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London 
+          and other parts of the country.Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the annual 
+          Epsom Derby. The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, Epsom is a thriving 
+          town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London and other parts of the country.
+          Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the annual Epsom Derby. The town also has a rich history, 
+          with evidence of human settlement dating back to the Roman times. Today, Epsom is a thriving town with a bustling high street, beautiful parks and green 
+          spaces, and excellent transport links to London and other parts of the country.Epsom is a market town in Surrey, England, known for its famous Epsom Downs 
+          Racecourse and the annual Epsom Derby. The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, Epsom is a thriving 
+          town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London and other parts of the country.Epsom is a market town in Surrey, 
+          England, known for its famous Epsom Downs Racecourse and the annual Epsom Derby. The town also has a rich history, with evidence of human settlement dating back to the Roman times. 
+          Today, Epsom is a thriving town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London and other parts of the country. </p>
         {/* <br/>
         <br/>
         <br/>
