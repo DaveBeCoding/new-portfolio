@@ -6,7 +6,7 @@ const messages = [
   'Welcome to my Portfolio',
   'Open to Contracting',
   'Open to Consulting',
-  'Ready to Hire',
+  'Ready to be Hired',
 ];
 
 function Banner() {
