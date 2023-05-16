@@ -1,0 +1,4 @@
+.letter p {
+    line-height: 2; /* Double space between lines */
+    margin-bottom: 1em; /* Space between paragraphs */
+}

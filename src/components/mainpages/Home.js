@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Slider from "../Slider";
 import Banner from "../Banner";
+import Letter from "../Greeting/Letter";
 
 function Home() {
 
@@ -43,22 +44,16 @@ function Home() {
         {/* <h3>Welcome to my portfolio site</h3> */}
         <Banner />
         <Slider />
-        <p>Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the annual Epsom Derby. 
-          The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, Epsom is a 
-          thriving town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London and 
-          other parts of the country.Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the 
-          annual Epsom Derby. The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, 
-          Epsom is a thriving town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London 
-          and other parts of the country.Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the annual 
-          Epsom Derby. The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, Epsom is a thriving 
-          town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London and other parts of the country.
-          Epsom is a market town in Surrey, England, known for its famous Epsom Downs Racecourse and the annual Epsom Derby. The town also has a rich history, 
-          with evidence of human settlement dating back to the Roman times. Today, Epsom is a thriving town with a bustling high street, beautiful parks and green 
-          spaces, and excellent transport links to London and other parts of the country.Epsom is a market town in Surrey, England, known for its famous Epsom Downs 
-          Racecourse and the annual Epsom Derby. The town also has a rich history, with evidence of human settlement dating back to the Roman times. Today, Epsom is a thriving 
-          town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London and other parts of the country.Epsom is a market town in Surrey, 
-          England, known for its famous Epsom Downs Racecourse and the annual Epsom Derby. The town also has a rich history, with evidence of human settlement dating back to the Roman times. 
-          Today, Epsom is a thriving town with a bustling high street, beautiful parks and green spaces, and excellent transport links to London and other parts of the country. </p>
+        <Letter/>
+        {/* <p>Welcome to my portfolio site! I'm Dave, a passionate and dedicated software engineer who's constantly exploring the exciting world of code. I believe that knowledge is a never-ending journey, and I'm always keen to learn more.
+
+In this site, you'll find a collection of my work, ranging from Python and C++ projects to machine learning explorations and algorithm challenges. I have a keen interest in artificial intelligence and data science, and I enjoy solving complex problems through code.
+
+Feel free to browse through my GitHub repository where you'll see examples of my work, including Machine Learning with Python, Neural Network from Scratch, and various Algorithm Challenges. These projects show my ability to write clean, efficient code and my understanding of complex algorithms and data structures.
+
+I hope you enjoy exploring my work as much as I've enjoyed creating it. If you have any questions or would like to discuss potential collaborations or opportunities, please don't hesitate to get in touch. I'm always open to new ideas and challenges.
+
+Thank you for visiting! </p> */}
         {/* <br/>
         <br/>
         <br/>

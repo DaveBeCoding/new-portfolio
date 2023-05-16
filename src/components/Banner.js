@@ -3,7 +3,7 @@ import '../App.css';
 import { motion } from 'framer-motion';
 
 const messages = [
-  'Welcome to my Portfolio',
+  'Thanks For Visiting',
   'Open to Contracting',
   'Open to Consulting',
   'Ready to be Hired',
