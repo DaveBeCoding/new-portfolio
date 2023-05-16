@@ -1,5 +1,5 @@
 // import About from './components/mainpages/About';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React from 'react';
 import './Letter.css';
 // import About from '../mainpages/About';
@@ -16,7 +16,7 @@ const Letter = () => {
                 {" "}
                 where you'll see examples of my work, including Machine Learning with Python, Neural Network from Scratch, and various Algorithm Challenges. These projects show my ability to write clean, efficient code and my understanding of complex algorithms and data structures.</p>
 
-            <p>I hope you enjoy exploring my work as much as I've enjoyed creating it. If you have any questions or would like to discuss potential collaborations or opportunities, <a href={window.location.origin + "https://davebecoding.github.io/about"} target="_blank" rel="noopener noreferrer">please don't hesitate to get in touch</a>
+            <p>I hope you enjoy exploring my work as much as I've enjoyed creating it. If you have any questions or would like to discuss potential collaborations or opportunities, <Link to="/about">please don't hesitate to get in touch</Link>
                 . I'm always open to new ideas and challenges.</p>
             <p>Thank you for visiting!</p>
         </div>
