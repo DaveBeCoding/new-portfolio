@@ -27,7 +27,6 @@ function Banner() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      {/* <p>{messages[index]}</p> */}
       <p><strong>{messages[index]}</strong></p>
     </motion.div>
   );

@@ -1,8 +1,6 @@
-// import About from './components/mainpages/About';
 import { Link } from 'react-router-dom';
 import React from 'react';
 import './Letter.css';
-// import About from '../mainpages/About';
 
 const Letter = () => {
     return (
